@@ -1,5 +1,8 @@
+//Note sir has been thought two topics in lecturer (overloading and overriding), I have commented the overriding code while running overloading code and vice-verse
+
 //overloading
-public class Lecture10 {
+
+ public class Lecture10 {
     
 void add(int num1, int num2)
  {System.out.println(num1+num2);}
@@ -27,7 +30,7 @@ public static void main(String[] args) {
 
 //overriding
 
-abstract class Doctor{
+/* abstract class Doctor{
     abstract void treatPatient();
     
 }
@@ -97,4 +100,4 @@ public class Lecture10 {
             doc.treatPatient();
         }
     }
-}
+} */
