@@ -12,11 +12,18 @@ public class Lecture13 {
             result = n1/n2;
             
         }
-        catch(Exception e) {
-            System.out.println("Ouch! Exception Detected!");
+        catch(ArithmeticException ae) {
+            System.out.println("AE Detected");
             
         }
-        System.out.println("The Division is "+result);
+        catch(Exception e) {
+            System.out.println("Ouch! Exception Detected! "+e.getMessage());
+            e.printStackTrace();
+            
+        }
+        finally {
+            System.out.println("The Division is "+result);
+            }
         
     }
     public static void main(String[] args) {
