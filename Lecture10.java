@@ -1,4 +1,4 @@
-//Note sir has been thought two topics in lecturer (overloading and overriding), I have commented the overriding code while running overloading code and vice-verse
+//Note sir has been thought two topics in lecture (overloading and overriding), I have commented the overriding code while running overloading code and vice-verse
 
 //overloading
 
